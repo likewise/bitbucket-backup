@@ -1,5 +1,10 @@
 #Bitbuck backup
 
+## Purpose of Fork
+
+Add support for host names different than bitbucket.org, as BitBucket allows another
+host name (git.yourdomain.com) to be CNAME forwarded to bitbucket.org.
+
 ## Description
 This python script will backup all of your bitbucket repos (both mercurial and git) locally.
 If the repository does not exist locally the repo will be cloned to the <local_backup_location>.
